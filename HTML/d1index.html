@@ -22,8 +22,9 @@ System.out.println("Hello World");
 
 
 <h1>Table Example</h1>
-<caption>Student Info</caption>
 <table border="1">
+    <caption>Student Info</caption>
+
     <thead> <th>Name</th>
     <th>Age</th>
     <th>Grade</th> </thead>
@@ -43,7 +44,7 @@ System.out.println("Hello World");
     <li>Cherry</li>
 </ol>
 
-<ul type="circle">
+<ul type="square">
     <li>Red</li>
     <li>Blue</li>
     <li>Green</li>
@@ -58,19 +59,20 @@ System.out.println("Hello World");
 </dl>
 
 <h1>Links</h1>
-<a href="example.com">Physical Tags</a><br>
+<a href="d1index.html">Physical Tags</a><br>
 <a href="https://www.google.com">Visit Google</a><br>
 <a href="example.com">Send Email</a><br>
 <a href="google.com"><img style="height: 50px;width: 50px;" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fencrypted-tbn1.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcTF0mUw3HQ9_8gH7au2RDAvDoEPHwv5NsGbIeSxbQ6zi6IaVgg_&psig=AOvVaw0ZAU_lSwYRgSADvNsAkogO&ust=174572704974500&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOCc_Jfq9IwDFQAAAAAdAAAAABAE" alt="Logo"></a>
 
 
 <h1>Form Example</h1>
-<p>Name:<input type="text" name="Name"></p>
+<form><p>Name:<input type="text" name="Name"></p>
 <p>Email:<input type="text" name="Email"></p>
 
 <p>Message: <textarea name="msg" ></textarea></p>
 <button type="submit">Submit</button>
 <button type="reset">Reset</button>
+</form>
 
 
 <h1>Non-semantic tags</h1>
@@ -83,10 +85,11 @@ System.out.println("Hello World");
 <h2>Website Header</h2>
 
 <nav>
-    <ul type="">
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Contact</a></li>
+      <p> <a href="">Home</a></li> |
+        <a href="">About</a></li> |
+        <a href="">Contact</a></li> 
+        </p>
+
     </ul>
 </nav>
 
@@ -96,6 +99,83 @@ System.out.println("Hello World");
 
 <h3>Section Title</h3>
 <section>This is a section of the main content.</section>
-<aside>This is a sidebar content.</aside>
 
-<footer>© 2025 All Rights Reserved.</footer>
+<aside>This is a sidebar content.</aside>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<h1 style="text-align: center;">
+    Task 1
+</h1>
+
+<table style="background-color: aquamarine; border-color: white;">
+    <thead style="text-align: center;">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>80</td>
+        </tr>
+        </tbody>
+</table>
+
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<h1 style="text-align: center;">
+    Task 2
+</h1>
+
+<p>List can be nested (list inside list)</p>
+
+<ul>
+    <li>Coffee</li>
+    <li>Tea
+        <ul type="circle">
+            <li>Green Tea</li>
+            <li>Black Tea</li>
+        </ul>
+    </li>
+    <li>milk</li>
+</ul>
+
+<p>Click any of the following links</p>
+<p>
+    <a href="https://example.com" target="_blank">Opens in New</a> |
+    <a href="d1index.html" target="_self">Opens in Self</a> |
+    <a href="https://example.com" target="_parent">Opens in Parent</a> |
+    <a href="https://example.com" target="_top">Opens in Top</a>
+</p>
+
+
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<h1 style="text-align: center;">
+    Task 3
+</h1>
