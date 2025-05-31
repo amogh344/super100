@@ -26,7 +26,6 @@ def contact_page_view(request):
     if request.method == 'POST':
         f = ContactForm(request.POST)
         if f.is_valid():
-            # Here you can add logic to handle the form submission (e.g., saving or sending an email)
             print("Your request is recorded")
         else:
             print("Your request is not recorded")

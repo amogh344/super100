@@ -1,4 +1,4 @@
-#!/Users/abr/super100/django3/env/bin/python3
+#!/Users/abr/super100/django3/env/bin/python3.13
 # -*- coding: utf-8 -*-
 import re
 import sys
